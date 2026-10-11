@@ -1,0 +1,5 @@
+project_id = "woscejmphxfdujxifylr"
+[functions.club-payments]
+verify_jwt = false
+# Every non-webhook request explicitly validates the user's token with auth.getUser.
+# Webhooks instead require the Razorpay HMAC signature over the raw body.
